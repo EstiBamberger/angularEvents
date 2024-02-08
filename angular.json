@@ -62,10 +62,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AnEvents:build:production"
+              "buildTarget": "AnEvents:build:production",
+              "proxyConfig": "C:/Users/USER/Desktop/angular/AnEvents/src/app/proxy.config.json"
             },
             "development": {
-              "buildTarget": "AnEvents:build:development"
+              "buildTarget": "AnEvents:build:development",
+              "proxyConfig": "C:/Users/USER/Desktop/angular/AnEvents/src/app/proxy.config.json"
             }
           },
           "defaultConfiguration": "development"
@@ -96,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7de5e5a3-f8dc-4ae6-9e93-1b33d5d52da0"
   }
 }
